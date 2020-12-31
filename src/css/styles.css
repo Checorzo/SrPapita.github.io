@@ -1,0 +1,35 @@
+*
+{
+    padding: 0px auto;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 225, 182);
+    outline: solid 1px orange;
+}
+
+.cabecera
+{
+    height: 3em;;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.saludo
+{
+    font-size: 1em;
+    text-align: center;
+    color: #69390c;
+    padding-left: 5%;
+    padding-top: 2%;
+
+}
+
+.saludo p span{
+    font-weight: bolder;
+}
+
+.target
+{
+    height: 20em;
+}
