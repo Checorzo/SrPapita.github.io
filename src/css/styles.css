@@ -29,7 +29,8 @@
 {
     text-align: justify;
     color: #69390c;
-    padding-left: 15px;
+    padding-left: 10%;
+    padding-right: 5%;
     padding-top: 2%;
     width: 800px;
 
@@ -38,18 +39,14 @@
 .container__saludo p{
     font-weight: bolder;
     padding-right: 15px;
+    font-size: 25px;
+    margin-bottom: 10%
 }
 
 .target
 {
     height: 20em;
 }
-
-.container__saludo p
-{
-    font-size: 25px;
-}
-
 .container__logo
 {
     margin-left: 0px;
@@ -72,19 +69,50 @@
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;    
+    list-style-type: none;
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.list__item li ul
+.list__item-type--bloque
+{
+    width: 92%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items:flex-start;
+    margin-bottom: 50px;
+    list-style-type: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+}
+
+.list__item-type
 {
     display: flex;
     flex-flow: column;
-    align-content: flex-start;
-    align-items:flex-start;
-    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    padding-left: 5px;
+    list-style-type: none;
+    border: 10px solid gray;
+    border-radius: 30px;
+    padding-top: 5%;
+    padding-right: 7%;
+    margin-bottom: 5%;
 }
-
-.list__item li
-{
+.list__item-type p{
+    padding-left: 30%;
+    margin-bottom: 5%;
+}
+.list__item-type--bloque ul {
+    list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:  wrap;
+}
+.list__item-type--bloque li a{
+    text-decoration: none;
+    color: #101010;
 }
